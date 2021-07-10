@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="python_style.css">
+  
+</head>
+<body>
+
+
+  <!-- <a class="gototop" href="#nav"><img style="width: 50%;" src="up.png" alt=""></a> -->
+  <nav id="nav">
+    <div class="nav_links_container" style="display: flex;justify-content: left;align-items: flex-end;">
+      <ul class="nav_links">
+        <li><a href="index.html">< Back</a></li>
+        
+      </ul>
+    </div>
+    <div style="display: flex;justify-content: center;align-items: flex-end;">
+      <a href="index.html"><img src="logo.svg" style="width: 3rem;" alt=""></a>
+    </div>
+    <div style="display: flex;justify-content: flex-end;align-items: flex-end;">
+      <ul class="socials">
+        <li><a href="#"><img style="width: 1.8rem;" src="mail.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/tush.dzn/" target="_blank"><img style="width: 1.3rem;" src="instagram.png" alt=""></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/tushar-mahajan-7180811a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfsR6oEF2QOmR5vfxW%2B8pHw%3D%3D"><img style="width: 1.3rem;" src="linkedin.png" alt=""></a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="cover">
+    
+  </div>
+
+  
+
+  <div class="title">
+    <h1>Wanna learn Python? Don't worry I got your back. </h1>
+    
+    <p><br>Here in this article I've covered all the basics of Python language (almost all if I missed any) & I bet you'll never stumble upon its basics.
+    You just need to be focused & dedicated to learn. <br><br>
+    <p style="color: aliceblue;background-color: red; padding: 1rem 2rem;">Please read everything carefully every line, every comment, every word ! <br> If you get stuck or did'nt understand any point, word, concept just google it ! <br> <span style="font-weight: 600;">Just dont stop here ! Keep Learning</span></p> 
+    <br> <p> Anyways, <span style="font-weight: 700;"> Lets Rock N Roll !</span></p>
+    
+  </div>
+
+  <div style="height: 4rem; display: flex;flex-direction: column;justify-content: center;">
+    <div style="background-color: rgb(243, 243, 243);height: 2px; width: 80%; margin: auto auto;">
+
+    </div>
+  </div>
+
+
+  <div class="topic">
+    <h1>Introduction</h1>
+    <p>When I was getting started with coding (from scratch with no knowldege) , I went through Google, YouTube, Quora and got to know about <a target="_blank" href="https://www.python.org/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">Python</a>. They said Python was one of the most easiest programming languages and was beginner-friendly. And yes, ofcourse it is! For a person with non-IT background like me, it is the best choice to start with Python. </p><br>
+    <p>Another reason I chose Python was it is a high-level, general-purpose and a very popular programming language use in various fields especially Data Science, Machine Learning, Web Development, Game Development, Cyber Security, along with all cutting edge technology in Software Industries like Google, Instagram, Spotify, etc.</p><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="companies.webp" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>So let's learn a bit more about this beautiful language.</p>
+    
+  </div>
+  
+
+
+  <div style="height: 4rem; display: flex;flex-direction: column;justify-content: center;">
+    <div style="background-color: rgb(243, 243, 243);height: 2px; width: 80%; margin: auto auto;">
+
+    </div>
+  </div>
+
+  <!-- <div class="title credits">
+    <p>Inspired by : &nbsp &nbsp <a href="https://realpython.com/"> <img src="rp.svg" width=12% alt=""></a></p>
+  </div>  -->
+
+  <div class="topic" id="variables">
+    <h1>1. Variables</h1>
+    <p>Think of variables same as variables in Simple Maths. The only thing here is we can assign a lot more than just numbers to any word. We assign some value to the variable which gets stored in your machine's memory & can further be changed. Lets say you want to define a variable <b>'x'</b>  and give it a value of <b>5</b> :</p> <br>
+    <p id="ide">
+      x = 5
+    </p> <br>
+    <p>As simple as that! You dont have to specify the <b>data type</b> of the variable value or put any semi-colon at the end of any line like we do in C, C++, Java, etc. </p> <br>
+    <p>Lets try some more definitions :</p><br>
+    <p id="ide">
+      
+      one = 1 <br>
+      num = 99999999999999999 <br>
+      num = 3 &nbsp <br>
+      <span class="comment"># Here I assigned a different value for the variable 'num'. We call it as overwriting.</span><br><br>
+      <span class="comment"># By the way the lines in which I'm explaining to you are known as comments.</span><br>
+      <span class="comment"># They begin with a '#' mark and a space and continue till the end of the line.</span><br>
+      <span class="comment"># Comments do not execute in a program. They are like ignored by the machine.</span><br>
+    </p> <br>
+
+    <p>
+      Besides integers, we can use many other data types :
+    </p> <br>
+
+    <p id="ide">
+
+      <span class="comment"># float - decimal numbers</span><br>
+      var1 = 1.5 <br>
+      var2 = 99.99 <br><br>
+      <span class="comment"># string - anything inside a 'quote' mark</span><br>
+      var1 = "Hello World" <br>
+      var2 = "Double quotes 12345" <br><br>
+      <span class="comment"># boolean - True, False. </span><br>
+      var1 = True <br>
+      var2 = False <br>
+      
+      
+    
+    </p><br>
+    <p>For now refer to this chart for data types :</p><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="data_types.png" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>Get your hands dirty <a target="_blank" href="https://www.programiz.com/python-programming/online-compiler/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+
+  </div>
+
+
+  <div class="topic" id="if_else">
+    <h1>2. Conditional Statements (if / else / elif)</h1>
+    <p><b>if else</b> statements are used when you have to check any expression or condition. If the expression given for <b>if</b> results in True, the code inside it executes; if not, the code inside <b>else</b> executes. For example :</p><br>
+    <p id="ide">
+
+      if 9 > 4 : <br>
+      &nbsp print('9 is greater than 4') <br>
+      else : <br>
+      &nbsp print('9 is smaller than 4') <br>
+      <br>
+      <span class="comment"># Here 9>4 is True so, code inside if will be executed.</span><br><br>
+      
+      if 2 > 4 : <br>
+      &nbsp print('2 is greater than 4') <br>
+      else : <br>
+      &nbsp print('2 is smaller than 4') <br>
+      <br>
+      <span class="comment"># Here 2>4 is True so, code inside else will be executed.</span>
+    
+    </p><br>
+    <p>You can use <b>elif</b> statements if you have multiple conditions :</p><br>
+    <p id="ide">
+
+      x = 5 <br>
+      <br>
+
+      if x >= 9 : <br>
+      &nbsp print('x is greater than or equal to 9') <br>
+      elif x <= 1 : <br>
+      &nbsp print('x is smaller than or equal to 1') <br>
+      else : <br>
+      &nbsp print('x lies between 1 and 9')
+      <br><br>
+      <span class="comment"># Here '<=' '>=' are relational operators used to compare values.
+      
+      
+    
+    </p><br>
+    <p>Try out your knowledge <a target="_blank" href="https://www.programiz.com/python-programming/online-compiler/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+
+  </div>
+
+  <div class="topic" id="loops">
+    <h1>3. Looping / Iterations (for / while / while-else)</h1>
+
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="loop.png" style="width: 100%;" alt="">
+      
+    </div>
+    <p>Looping in python is done in three ways. The <b>for</b> loop, the <b>while</b> loop and the <b>while else</b> loop.</p><br>
+    <p><b>While</b> Looping: While loop needs a statement or an expression which results in either True or False; the code inside the block will be executed if it is True, and the loop terminates if it is False. So, this code will print the number from 1 to 10.</p><br>
+    <p id="ide">
+
+      num = 1 <br>
+      <br>
+
+      while num <= 10 : <br>
+      &nbsp print(num) <br>
+      &nbsp num += 1 <br>
+      <span class="comment"># The code inside the loop keeps on executing untill num = 10 </span><br>
+      <span class="comment"># As soon as num = 11, the statement becomes False and the loop terminates. </span><br>
+      <span class="comment"># Here '+=' is assignment operator. num += 1 is actually num = num + 1 </span>
+      
+      
+    
+    </p><br>
+    
+    <p><b>While-else</b> Looping: As soon as while loop terminates or does'nt loop, else block code gets executed. For example :</p><br>
+    <p id="ide">
+
+      num = 1 <br>
+      <br>
+
+      while num <= 10 : <br>
+      &nbsp print(num) <br>
+      &nbsp num += 1 <br>
+      else : <br>
+      &nbsp print('The while loop has finished executing.') <br> 
+      
+      
+    
+    </p><br>
+    <p><b>For</b> Looping: For loops are generally used if you want to loop sequentially. For example: traversing a list or string or array etc. The following code will print the same as while code: from 1 to 10.</p><br>
+
+    <p id="ide">
+
+      
+
+      for num in range(1, 11) : <br>
+      &nbsp print(num) <br>
+      
+      <span class="comment"># Here range(1, 11) generates a sequence of 1-10 numbers. It is a built-in function. </span><br>
+      <span class="comment"># In range(1 ,11) the upper limit that is 11 here is excluded and 10 is included. </span><br> <br>
+      
+      for letter in 'Hello World' : <br>
+      &nbsp print(letter)
+      <br>
+      <span class="comment"># Output : H e l l o   W o r l d (one letter each on one line)</span><br>
+      
+      
+    
+    </p><br>
+    <p>Practice <a target="_blank" href="https://www.programiz.com/python-programming/online-compiler/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+
+  </div>
+
+  <div class="topic" id="operators">
+    <h1>4. Operators</h1>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="operators.webp" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>
+      Operators as the name suggests perform operations. <br> Let's look at some of the operators, their symbols and operations / uses :
+    </p><br>
+    <p id="ide">
+      <span class="comment"># Arithmetic Operators : +, -, *, / are the common ones.</span><br>
+      <span class="comment"># // gives floor value , % gives the remainder , ** denotes exponential.</span><br><br>
+      print(9 // 5) <span class="comment"># 1.8</span><br>
+      print(9 % 5) <span class="comment"># 4</span><br>
+      print(3**2) <span class="comment"># 9</span><br><br>
+      
+      <span class="comment"># Relational operators : used to compare values , returns either True or False.</span><br>
+      
+      print(9 > 5) <span class="comment"># True</span><br>
+      print(9 <= 5) <span class="comment"># False</span><br>
+      print(4 == 4) <span class="comment"># True (single '=' is an assignment operator used to assign values to operands on left side)</span><br>
+      print(4 != 4) <span class="comment"># False (not equal to)</span><br><br>
+      
+      <span class="comment"># Logical operators : Logical operators perform Logical AND, Logical OR and Logical NOT operations.</span><br>
+      
+      
+      print(9 > 5 and 1 <= 0) <span class="comment"># False , since True and False gives false in Logical and.</span><br>
+      print(1 and 0) <span class="comment"># False , you can also use 1 and 0 to denote True and False respectively.</span><br>
+      print(1 or 0) <span class="comment"># True</span><br>
+      print(not 9 > 5) <span class="comment"># False , since 9>5 is True and 'not' makes it opposite.</span><br><br>
+      
+      <span class="comment"># Bitwise operators : Similar to logical operators</span><br>
+      <span class="comment"># The difference here is the operations performed are bitwise - bit by bit.</span><br>
+      <span class="comment"># '&' - Bitwise and , '|' - Bitwise or , '~' - Bitwise not </span><br>
+      a = 8 <br>
+      b = 5 <br>
+      <br>
+      print(a & b) <span class="comment"># 0</span><br>
+      print(a | b) <span class="comment"># 13</span><br>
+      print(~a) <span class="comment"># -9</span><br><br>
+      
+      <span class="comment"># Assignment operators: Assignment operators are used to assign values to the variables.
+      </span><br>
+      <span class="comment"># The most common one is '=' which assigns value to the operand on LHS.
+      </span><br>
+      
+      a = 2 <br>
+      b = 3 <br>
+      <br>
+      a += b <span class="comment"># 5 , it simply means a = a + b </span><br>
+      a -= b <span class="comment"># 1 , it simply means a = a - b </span><br> 
+      a *= b <span class="comment"># 6 , it simply means a = a * b </span><br> 
+      a /= b <span class="comment"># 0.6666 , it simply means a = a / b </span><br> <br>
+      
+    </p><br>
+    <p>Last but not least, my favourite <b>operator</b> is :</p><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="operator_valo.jpg" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>Just kidding ! Anyways, flex your muscles <a target="_blank" href="https://www.programiz.com/python-programming/online-compiler/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+  </div>
+
+  <div class="topic" id="data_containers">
+    <h1>5. Lists / Dictionaries / Tuples / Sets</h1>
+    <p style="color: aliceblue;background-color: #002ead; padding: 1rem 2rem;">Lists / Dictionaries / Tuples / Sets are 4 different built-in <b>data structures</b> in Python. <br>
+    Data structure is a data which is organized & stored in a very specific manner so that necessary edits can be done efficiently on that data.</p><br>
+    
+    <p>Ok now you've learnt how to assign some value to a variable. What if you want to assign more than one value to a variable ; say - 1, 2, 3, 4, 5, 6? Or 'Rahul', 'Tushar', 'Himanshu' ? Or 1, 3.8, True, 'Hello', 'World' ?<br>
+    For that we have different <b>collections / containers</b> in Python. Lets have a look at them one by one :</p><br>
+    <p><b>List</b> : It is simply an ordered collection / container of different objects or items which can be accessed individually. For example lets create a list containing these items : 1, 3.8, True, 'Hello', 'World' . <br>
+    ( Yes ! A list can contain items of different data types or data structure. ) </p> <br>
+    <p id="ide">
+      list1 = [1, 3.8, True, 'Hello', 'You are Smart and Beautiful', [2, 4, 6]] <br>
+      <span class="comment"># You need to enclose your items inside '[]' these square brackets to make it a list. </span><br>
+    </p><br>
+    <p>That's it. You created a list that easily. Now what if you have to access one of those items ? </p>
+    <p>We access them by providing <b>indices</b> of the items. Index is simply a rank of that item from the start. In Python indexing starts from 0. The first item has index 0, second item 1, third 2, likewise nth item has index n-1.</p><br>
+    <p id="ide">
+      list1[2] <span class="comment"># True </span><br>
+      list1[0] <span class="comment"># 1 </span><br><br>
+      <span class="comment"># You can also access by providing negative indexing </span><br>
+      <span class="comment"># -1 for the last item , -2 for second last , -3 for third last and so on...  </span><br><br>
+      list1[-1] <span class="comment"># [2, 4, 6] </span><br>
+      list1[-6] <span class="comment"># 1 </span><br><br>
+      <span class="comment"># You can also add elements at a particular index </span><br><br>
+      list[0] = 0 <span class="comment">#  [0, 3.8, True, 'Hello', 'You are Smart and Beautiful', [2, 4, 6]]</span><br>
+      list[-1] = 'last' <span class="comment">#  [0, 3.8, True, 'Hello', 'You are Smart and Beautiful', 'last']</span><br>
+    </p><br>
+    <p>Lets Go ! You learnt to create a list and access its elements. But how do you modify it ? How do you remove a specific element or add items in it further ? For that we have list methods. Method is nothing but a way to alter an object specifically; similar to <b>functions.</b> Some of the common list methods are :  
+    </p><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="list_methods.jpg" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p><b>Dictionary </b> : It is an ordered collection of items in which the items are in the form of 'Key : Value' pair. Just similar to lists but instead of indexing by numbers we here have 'key'. The key is the index pointing to the value. <br> Lets look at an example :</p><br>
+    <p id="ide">
+      dict1 = {'one' : 1, 'two' : 2, 'three' : 3, 7 : 'Dhoni', 5.5 : 'five point five', 'list1' : [2, 4, 6]} <br>
+      <span class="comment"># We have to provide two things seperated by a ':' for each item. </span><br>
+      <span class="comment"># The left one is the key and the right one is the value for that key. </span><br>
+      <span class="comment"># Enclose whole your data inside '{}' curly brackets. </span><br>
+      <span class="comment"># Each value can be accessed with the help of its respective key. </span><br><br>
+      dict1['one'] <span class="comment"># 1 </span><br>
+      dict1[7] <span class="comment"># Dhoni </span><br>
+      dict1[5.5] <span class="comment"># 'five point five' </span><br>
+      dict1['list1'] <span class="comment"># [2, 4, 6] </span><br><br>
+      <span class="comment"># The value can also be obtained with the help of '.get()' method </span><br><br>
+      dict1.get(7) <span class="comment"># 'Dhoni' </span><br><br>
+      <span class="comment"># You can also add elements for a particular key </span><br><br>
+      dict1['new'] = 'Hello world' 
+    </p><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="dict.png" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>For detailed explaination of Dictionary methods, visit <a target="_blank" href="https://www.w3schools.com/python/python_ref_dictionary.asp" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+    
+
+    <p><b>Tuples :</b> Shortly & simply, Tuples are nothing but <b>immutable lists.</b> It means that they are ordered but you cannot change, add, remove any data inside it. <br>
+    Lets create one : </p><br>
+    <p id="ide">
+      tuple1 = ("abc", 34, True, 4.123, "male") <br>
+      <span class="comment"># Tuple brackets : '()' </span><br><br>
+      tuple1[2] = False <span class="comment"># TypeError : 'tuple' object does not support item assignment </span><br>
+
+    </p><br>
+    <p>You can access the elements just like lists. </p><br>
+    <p style="color: aliceblue;background-color: #002ead; padding: 1rem 2rem;">But remember : if your tuple has only one element, give a comma after it. 
+      </p><br>
+    <p id="ide">
+      tuple1 = ("abc",) <br><br>
+      
+      tuple1 = ("abc") <span class="comment"># Not a tuple </span><br><br>
+      <span class="comment"># These tuples are often used for iterations in loops. </span><br>
+
+    </p><br>
+    <p><b>Sets :</b> Are again a collection of data but this time they are <b>unordered</b> and <b>does'nt have duplicate items.</b><br>
+    We can't access the set items with indexing due to their unorderedness which means everytime you use them they appear in different order.
+    They are written in curly brackets '{}' .</p><br>
+    <p id="ide">
+      set1 = {"abc", 34, True, 40, "male"}
+    </p><br>
+    <p>Hoof ! Too much of information ? Polish that <a target="_blank" href="https://www.w3schools.com/python/python_ref_dictionary.asp" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">here</a></p><br>
+
+  </div>
+
+  <div class="topic" id="list_loops">
+    <h1>6. Looping through data containers</h1><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="data_containers.jpg" style="width: 100%;" alt="">
+      
+    </div><br>
+    <p>Now here comes the most important use of data containers - Iterations! Most of the times we need individual elements of that list one by one to perform some tasks or operations. And if you ask me from my experience pov, for loops are used almost every time. So let us see how its done :</p><br>
+    <p id="ide">
+      data = [7, 13, 3, 2934, 44, 123, 0] <br> <br>
+      for num in data : <br>
+      &nbsp if num % 2 == 0 : <br>
+      &nbsp &nbsp print(num) <br> <br>
+      <span class="comment"># This is a short code for printing even numbers. </span><br>
+      <span class="comment"># Carefully have a look at the syntax.</span><br>
+      <span class="comment"># After 'for' specify the variable name you are going to use throughout the loop for that individual item. </span><br>
+      <span class="comment"># 'in _data_container_' assigns a single item to the variable sequentially for each loop.  </span><br><br>
+      <span class="comment"># But there's a twist. You can only use that variable in that loop. You cannot use it outside that loop.  </span><br>
+      <span class="comment"># Similar to <a target="_blank" href="https://www.programiz.com/python-programming/global-local-nonlocal-variables" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">local variables.</a></span><br>
+      
+
+      
+
+    </p> <br>    
+    <p>We saw how to iterate through a list. Now lets get to Dictionaries.<br>
+    We know that a dictionary contains items in the form of key-value pairs. So its obvious that we will have to iterate through the key value pairs. Lets look at our previous example : </p><br>
+    <p id="ide">
+      dict1 = {'one' : 1, 'two' : 2, 'three' : 3, 7 : 'Dhoni', 5.5 : 'five point five', 'list1' : [2, 4, 6]} <br><br>
+      for key, value in dict1.items : <br>
+      &nbsp print(key, value) <br> <br>
+      <span class="comment"># one, 1 </span><br>
+      <span class="comment"># two, 2 </span><br>
+      <span class="comment"># three, 3 </span><br>
+      <span class="comment"># 7, Dhoni </span><br>
+      <span class="comment"># 5.5, five point five </span><br>
+      <span class="comment"># list1, [2, 4, 6] </span><br>
+    </p><br>
+    <p>We did name the two parameters as key and value, but we can also use any other word or name : </p> <br>
+    <p id="ide">
+      dict2 = {'Tushar' : 20, 'Pratik' : 18, 'Himanshu' : 21, 'Geeta' : 20} <br><br>
+      for name, age in dict2.items : <br>
+      &nbsp print(f'{name} : {age}') <br> <br>
+      <span class="comment"># Tushar : 20 </span><br>
+      <span class="comment"># Pratik : 18 </span><br>
+      <span class="comment"># Himanshu : 21 </span><br>
+      <span class="comment"># Geeta : 20 </span><br><br>
+      <span class="comment"># the code used above - f'---' to print the result is known as <a target="_blank" href="https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/" style="text-decoration: #002ead;color: #002ead;font-weight: 700;">f string</a> in Python. </span><br>
+      
+    </p><br>
+    <p><b>Bonus tip :</b> You can also iterate through strings for each character in it.</p> <br>
+
+    <p id="ide">
+      name = 'Zlatan' <br><br>
+      for letter in name : <br>
+      &nbsp print(letter) <br> <br>
+      <span class="comment"># Z </span><br>
+      <span class="comment"># l </span><br>
+      <span class="comment"># a </span><br>
+      <span class="comment"># t </span><br>
+      <span class="comment"># a </span><br>
+      <span class="comment"># n </span><br>
+      
+    </p><br>
+    
+
+  </div>
+
+  
+  
+  <!-- <div class="topic">
+    <h1>7. Functions</h1><br>
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="functions.webp" style="width: 100%;" alt="">
+      
+    </div><br>
+  </div> -->
+
+
+
+  <div style="height: 4rem; display: flex;flex-direction: column;justify-content: center;">
+    <div style="background-color: rgb(243, 243, 243);height: 2px; width: 80%; margin: auto auto;">
+
+    </div>
+  </div>
+
+
+
+  <div id="conclusion" style="width: 80%;margin: auto auto; text-align: center;font-size: 8rem; font-weight: 800;color: #585858;">
+    VICTORY ✌️
+  </div><br>
+  <div class="topic">
+    <div class="cover_loop" style="width: 75%;margin: auto auto;">
+      <img src="victory.webp" style="width: 100%;" alt="">
+      
+    </div><br>
+  </div><br>
+  <div style="width: 80%;margin: auto auto; text-align: center;font-size: 2rem; font-weight: 800;color: #585858;">
+    WOO HOO 🥳 ! I'm glad you made it till here. <br>
+    So now your basics are concrete & I'm sure you're ready to get more advanced in Python.
+  </div><br>
+  <div style="width: 80%;margin: auto auto; text-align: center;font-size: 2rem; font-weight: 800;color: #585858;">
+    Here are some links where you can polish as well as upgrade your Python programming skills :
+  </div><br><br>
+  
+  
+  <!-- Links -->
+  
+  <section class="channels">
+    <div class="channel">
+      <a target="_blank" href="https://www.freecodecamp.org"><img src="fcc.jpg" alt=""></a>
+    </div>
+    <div class="channel">
+      <a target="_blank" href="https://realpython.com/"><img src="rp.jpg" alt=""></a>
+    </div>
+    <div class="channel">
+      <a target="_blank" href="https://www.w3schools.com/python/"><img src="w3.jpg" alt=""></a>
+    </div>
+    <div class="channel">
+      <a target="_blank" href="https://www.geeksforgeeks.org/"><img src="gfg.jpg" alt=""></a>
+    </div>
+    <div class="channel">
+      <a target="_blank" href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg"><img src="twt.jpg" alt=""></a>
+    </div>
+    <div class="channel">
+      <a target="_blank" href="https://www.youtube.com/user/javaboynavin"><img src="telu.jpg" alt=""></a>
+    </div>
+
+    
+    
+  </section><br>
+
+  <div style="width: 80%;margin: auto auto; text-align: center;font-size: 2rem; font-weight: 800;color: #585858;">
+    How could I improve this article ? Or is it perfect enough ? <br>
+    Please ping me on this.
+  </div><br>
+
+  <div style="height: 4rem; display: flex;flex-direction: column;justify-content: center;">
+    <div style="background-color: rgb(243, 243, 243);height: 2px; width: 80%; margin: auto auto;">
+
+    </div>
+  </div>
+
+  <div style="height: 10rem;" class="foot" id="contact">
+    <div style="display: flex; flex-direction: column;align-items: center;justify-content: center;">
+      <h1 style="color: #585858;font-size: 1.2rem;font-weight: 600;">Mantra</h1>
+      <p style="color: #585858;">Keep it simple, but significant</p>
+    </div>
+    
+    <div style="display: flex; flex-direction: column;align-items: center;justify-content: center;">
+      <h1 style="color: #585858;font-size: 1rem;font-weight: 600;opacity: 0.2;">© Tushar Mahajan</h1>
+      
+    </div>
+
+
+    <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+      <h1 style="color: #585858;font-size: 1.2rem;font-weight: 600;">Lets Chat!</h1>
+      <ul class="socials foot_socials">
+        <li><a href="#"><img style="width: 1.8rem;" src="mail.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/tush.dzn/" target="_blank"><img style="width: 1.3rem;" src="instagram.png" alt=""></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/tushar-mahajan-7180811a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfsR6oEF2QOmR5vfxW%2B8pHw%3D%3D"><img style="width: 1.3rem;" src="linkedin.png" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+  
+
+  
+
+
+
+
+  <!-- section links -->
+
+
+  <button class="gototop" id="btn"><img style="width: 75%;" src="list.png" alt=""></button>
+
+  <div id="index">
+    <!-- <h1>Index</h1> -->
+    <ul>
+      <li><a href="#variables">1. Variables</a></li>
+      <li><a href="#if_else">2. Conditional Statements</a></li>
+      <li><a href="#loops">3. Looping / Iterations</a></li>
+      <li><a href="#operators">4. Operators</a></li>
+      <li><a href="#data_containers">5. Data Containers</a></li>
+      <li><a href="#list_loops">6. Looping through data containers</a></li>
+      <li><a href="#">7. Functions</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+  </div>
+
+
+  <script>
+    const btn = document.getElementById('btn');
+    const nav = document.getElementById('index');
+
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      nav.classList.toggle('active');
+    })
+  </script>
+
+
+
+
+
+</body>
+</html>
